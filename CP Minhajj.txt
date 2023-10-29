@@ -1,0 +1,88 @@
+01-131232-101
+Ch. Minhaj Arshad
+
+Algorithms
+
+Q.1: Finding the shortest path:
+1. Start
+2. Input (Where user is currently/Current location)
+3. Input (Where user wants to go/Destination)
+4. After it. The GPS navigation system will scan the paths 
+near to users location
+5. Now it will match the near paths with its list of paths
+6. If some paths are find like 10 paths
+7. A,B,C,D,E,F,G,H,I,J
+8. And A>B>C>D>E>F>G>H>I>J
+9. Print J
+10. Else (A>B>C>D>E>F>G>H>I print I)
+11. Else (A>B>C>D>E>F>G>H print H)
+12. Else (A>B>C>D>E>F>G print G)
+13. Else (A>B>C>D>E>F print F)
+14. Else (A>B>C>D>E print E)
+15. Else (A>B>C>D print D)
+16. Else (A>B>C print C)
+17. Else (A>B print B)
+18. Else print A
+19. End
+
+Q.2: Sorting list of integers
+1. Start
+2. Input (store the values in an array)
+3. Split the main array into two sub-arrays
+4. Keep dividing these sub-arrays until only one value is left
+5. Now compare the last split values
+6. Store the smaller values into a new sub-array and then the larger 
+ones
+7. Now continue this process until all the single values are sorted
+8. Then compare the first value of the left sub-array with the first 
+value of the right sub-array
+9. Select the smaller one and store it in a single array
+10. Increase the counter of the array of the smaller value, but don’t 
+increase the counter of the larger value
+11. Store the smaller value in a new array and then compare again
+12. Repeat steps 10 and 11 until sorted and stored in a new array
+13. Repeat steps 8 to 12 until a single sorted array is obtained
+14. End
+
+Q.3: Calculating Fibonacci Numbers
+1. Start
+2. Initialize num1 = 0 and num2 = 1 (first two Fibonacci 
+Numbers).
+3. Input the number 'n' (the desired nth term of the 
+Fibonacci sequence).
+4. Using a loop from 3 to the 'n' (nth term):
+5. Calculate the next Fibonacci number by adding num1 and 
+num2: value = num1 + num2
+6. Update num1 to num2: num1 = num2 
+7. Update num2 to the calculated value: num2 = value
+8. Repeat Steps 5 to 7 until the nth Fibonacci number is 
+calculated.
+9. Print the final number, which is num2, representing the 
+required nth Fibonacci number.
+10. Stop
+
+Q. 4: Inventory Management
+1. Start
+2. Create a database to manage and store inventory data.
+3. Provide a user interface with options:
+- Add item - Update quantity - Delete item - Generate report - Return to main menu
+4. If the user selects 'Add item':
+5. Prompt the user to input the item name and its quantity.
+6. Store the item in the database with the provided details.
+7. Return to the main menu.
+8. If the user selects 'Update quantity':
+9. Prompt the user to input the item name for which they want to update the quantity.
+10. Check if the item exists in the inventory.
+- If the item exists, allow the user to update its quantity.
+- If the item doesn't exist, return to the main menu.
+11. Return to the main menu.
+12. If the user selects 'Delete item':
+13. Prompt the user to input the item name for deletion.
+14. Check if the item exists in the inventory.
+- If the item exists, provide an option to delete and remove it from the inventory.
+- If the item doesn't exist, return to the main menu.
+15. Return to the main menu.
+16. If the user selects 'Generate report':
+17. Display a report listing all items and their current quantities in the inventory.
+18. Return to the main menu.
+19. End
